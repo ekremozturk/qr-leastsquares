@@ -10,7 +10,7 @@ for k=1:n
     
     a = X(k:m,k);
     
-    e1 = zeros(101-k,1);
+    e1 = zeros(m+1-k,1);
     
     e1(1)=1;
     
